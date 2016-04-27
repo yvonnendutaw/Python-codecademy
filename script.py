@@ -26,3 +26,18 @@ zoo_animals[2] = "hyena"
 # What shall fill the void left by our dear departed tiger?
 # Your code here!
 zoo_animals[3]="dog"
+
+
+#adding late arrivals and printing oout list length
+suitcase = []
+suitcase.append("sunglasses")
+
+# Your code here!
+suitcase.append("Clothes")
+suitcase.append("Sunscreen")
+suitcase.append("Sandals")
+
+list_length = len(suitcase) # Set this to the length of suitcase
+
+print "There are %d items in the suitcase." % (list_length)
+print suitcase
