@@ -101,3 +101,36 @@ def distance_from_zero(n):
       return abs(n)
    else:
        return "Nope"
+
+
+#without arguments
+def answer():
+   x=42
+   return x
+
+
+    #vacation!
+def hotel_cost(n):
+    return 140 * n
+
+def plane_ride_cost(city):
+    if city == "Charlotte":
+        return 183
+    elif city == "Tampa":
+        return 220
+    elif city == "Pittsburgh":
+        return 222
+    elif city == "Los Angeles":
+        return 475
+
+
+def rental_car_cost(days):
+    total = 40*days
+    if days >=7:
+        total -= 50
+    elif days>=3:
+        total -= 20
+    return total
+
+def trip_cost(city,days):
+    return hotel_cost(days) + rental_car_cost(days) + plane_ride_cost(city)
