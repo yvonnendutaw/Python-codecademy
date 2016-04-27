@@ -66,3 +66,9 @@ print maximum
 minimum = min(473,494,292)
 
 print minimum
+
+#absolute value ie number's distance from zero
+
+absolute = abs(42)
+
+print absolute
