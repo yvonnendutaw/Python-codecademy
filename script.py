@@ -58,3 +58,11 @@ def by_three(number):
 maximum = max(49,42,50)
 
 print maximum
+
+
+#min function
+# Set minimum to the min value of any set of numbers on line 3!
+
+minimum = min(473,494,292)
+
+print minimum
