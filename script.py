@@ -72,3 +72,32 @@ print minimum
 absolute = abs(42)
 
 print absolute
+
+# Print out the types of an integer, a float,
+# and a string on separate lines below.
+print type(8)
+print type(49.60)
+print type('yvonne')
+
+#example 3 on functions
+def shut_down(s):
+    if s == "yes":
+        return "Shutting Down"
+    elif s =="no":
+        return "Shutdown aborted"
+    else:
+        return "sorry"
+
+    #importing modules
+    mport math
+from math import sqrt
+
+print sqrt(13689)
+
+#types
+def distance_from_zero(n):
+   print type(n)
+   if type(n)==int or type(n)==float:
+      return abs(n)
+   else:
+       return "Nope"
