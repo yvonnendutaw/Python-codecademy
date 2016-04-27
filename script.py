@@ -31,9 +31,23 @@ def power(base,exponent):  # Add your parameters here!
 
 power(37,4)  # Add your arguments here!
 
-#Functions calling functions
+#Functions calling functions example1
 def one_good_turn(n):
     return n + 1
 
 def deserves_another(n):
+    #call the function in function1
     return one_good_turn(n) + 2
+
+#example2
+
+def cube(number):
+    cubed = number** 3
+    return cubed
+def by_three(number):
+    if number%3== 0:
+       return cube(number)
+    else:
+      return False
+
+    cube(60)
