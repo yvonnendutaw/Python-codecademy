@@ -49,5 +49,12 @@ def by_three(number):
        return cube(number)
     else:
       return False
+    cube(30)
 
-    cube(60)
+
+#max function
+# Set maximum to the max value of any set of numbers on line 3!
+
+maximum = max(49,42,50)
+
+print maximum
