@@ -64,3 +64,9 @@ inventory['pocket']=['seashell','strange berry','lint']
 inventory['backpack'].sort()
 inventory['backpack'].remove('dagger')
 inventory['gold']+=50
+
+
+#printing items in lists
+names = ["Adam","Alex","Mariah","Martine","Columbus"]
+for names in ["Adam","Alex","Mariah","Martine","Columbus"]:
+    print names
