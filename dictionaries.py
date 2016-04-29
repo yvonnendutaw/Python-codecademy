@@ -98,3 +98,43 @@ def fizz_count(x):
             count = count + 1
 
     return count
+
+#string looping
+for letter in "Codecademy":
+    print letter
+
+# Empty lines to make the output pretty
+print
+print
+
+word = "Programming is fun!"
+
+for letter in word:
+    # Only print out the letter i
+    if letter == "i":
+        print letter
+
+#shopping cart
+prices = {
+    "banana" : 4,
+    "apple"  : 2,
+    "orange" : 1.5,
+    "pear"   : 3,
+}
+stock = {
+    "banana" : 6,
+    "apple"  : 0,
+    "orange" : 32,
+    "pear"   : 15,
+}
+#for loop that prints the three statements
+for key in prices:
+    print key
+    print "price: %s" % prices[key]
+    print "stock: %s" % stock[key]
+
+total = 0
+for key in prices:
+    prices[key] * stock[key]
+    total +=  prices[key] * stock[key]
+    print total
