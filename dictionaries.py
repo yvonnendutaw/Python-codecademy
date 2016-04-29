@@ -70,3 +70,15 @@ inventory['gold']+=50
 names = ["Adam","Alex","Mariah","Martine","Columbus"]
 for names in ["Adam","Alex","Mariah","Martine","Columbus"]:
     print names
+    #printing items in dictionaries
+
+webster = {
+	"Aardvark" : "A star of a popular children's cartoon show.",
+    "Baa" : "The sound a goat makes.",
+    "Carpet": "Goes on the floor.",
+    "Dab": "A small amount."
+}
+
+# Add your code below!
+for key in webster:
+    print webster[key]
