@@ -284,6 +284,7 @@ print get_letter_grade(get_average(lloyd))
 print get_letter_grade(get_average(alice))
 print get_letter_grade(get_average(tyler))
 
+# getting the avarage
 students=[lloyd, alice, tyler]
 
 def get_class_average(students):
@@ -291,3 +292,6 @@ def get_class_average(students):
     for student in students:
         results.append(get_average(student))
     return average(results)
+
+print get_class_average(students)
+print get_letter_grade(get_average(students))
