@@ -74,8 +74,20 @@ def random_col(board):
 ship_row = random_row(board)
 ship_col = random_col(board)
 
-# Add your code below!
+#prints the debugging statement
 guess_row = int(raw_input("Guess Row: "))
 guess_col = int(raw_input("Guess Col: "))
 print ship_col
 print ship_row
+
+#You WIn!
+if guess_row == ship_row and guess_col == ship_col:
+    print "Congratulations! You sank my battleship!"
+
+#you missed
+if guess_row == ship_row and guess_col == ship_col:
+    print "Congratulations! You sank my battleship!"
+else:
+    print "You missed my battleship!"
+    board[int(guess_row)][int(guess_col)] = "X"
+    print_board(board)
