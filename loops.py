@@ -49,3 +49,35 @@ while guesses_left > 0:
     guesses_left -= 1
 else:
     print 'You lose.'
+
+    #hobbies
+    hobbies = []
+
+# Add your code below!
+hobby = raw_input("What is your hobby?")
+for i in range(3):
+    hobbies.append(hobby)
+
+    ##looping through a string
+    thing = "spam!"
+
+for c in thing:
+    print c
+
+word = "eggs!"
+
+# Your code here!
+for c in word:
+    print c
+
+    ##replacing char in strings
+    phrase = "A bird in the hand..."
+
+# Add your for loop
+for char in phrase:
+    if char == "A" or char == "a":
+        print "X",
+    else:
+        print char,
+
+
