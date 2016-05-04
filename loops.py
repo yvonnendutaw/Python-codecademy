@@ -80,4 +80,23 @@ for char in phrase:
     else:
         print char,
 
+        ##looping through lists
+numbers  = [7, 9, 12, 54, 99]
+
+print "This list contains: "
+
+for num in numbers:
+    print num
+
+# Add your loop below!
+for num in numbers:
+    print num**2
+
+
+##looping through dictionaries and printing the keys and values
+d = {'a': 'apple', 'b': 'berry', 'c': 'cherry'}
+
+for key in d:
+    # Your code here!
+ print key, d[key]
 
