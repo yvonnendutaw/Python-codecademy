@@ -17,3 +17,23 @@ def digit_sum(n):
                 b.append(a)
         return sum(b)
         print sum(b)
+        
+##factorial
+def factorial(x):
+    if x == 1 or x == 0:
+        print 1
+        return 1
+    else:
+        return x*factorial(x - 1)
+
+##is_prime
+def is_prime(x):
+    if x<2:
+        return False
+    else:
+        for n in range(2,x):
+            if x % n == 0:
+                return False
+    return True
+print is_prime(3)
+
